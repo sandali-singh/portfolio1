@@ -1,0 +1,438 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.navbar .subnavbar {
+  display: flex;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.navbar .subnavbar .subnavbar__elements {
+  margin-right: 3rem;
+}
+.navbar .subnavbar a {
+  color: #000;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navbar .subnavbar a:hover {
+  color: #9542cc;
+}
+.navbar .lights {
+  font-size: 2rem;
+}
+.navbar .mobile__menu {
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+  position: relative;
+}
+.header {
+  display: flex;
+  padding: 7rem 4rem 4rem;
+}
+.header__left {
+  width: 50%;
+}
+.header__left--box {
+  padding: 5rem 10rem;
+  -webkit-transform: translateY(10%);
+  transform: translateY(15%);
+}
+.header__left--box .header__heading {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+.header__left--box .resume {
+  background-color: #0071bc;
+  border-radius: 1rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s;
+  width: 30%;
+}
+.header__right {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.u-margin-top-small {
+  margin-top: 2rem !important;
+}
+.u-margin-top-medium {
+  margin-top: 4rem !important;
+}
+
+.links {
+  display: inline-block;
+  font-size: 2rem;
+}
+.links a:not(last-child) {
+  margin-right: 2rem;
+}
+.links a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.wave[data-v-7b8ce968] {
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: wave-animation;
+  animation-name: wave-animation;
+  display: inline-block;
+  -webkit-transform-origin: 70% 70%;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+  }
+  20% {
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  30% {
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+  }
+  40% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.fake-dark-mode {
+  filter: invert(100%);
+  transition: all 0.5s;
+}
+.header__left--box .header__heading span {
+  color: #0071bc;
+  display: block;
+}
+.header__right {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 5%;
+}
+
+section {
+  padding: 0.5rem 8rem 0;
+}
+.section__container {
+  display: flex;
+}
+.section_heading {
+  color: #0071bc;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.about__left {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.about__left img {
+}
+.about__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.about__right .para_heading {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.about__right p {
+  font-size: 1.5rem;
+}
+.skills .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: auto 5rem;
+}
+.skills .left img {
+  width: 90%;
+}
+.section__container--left {
+  width: 50%;
+}
+.skills .right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.section__container--right {
+  width: 50%;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 3rem !important;
+}
+
+.education {
+  padding: 8rem;
+  background-image: url("../../public/gradient3.png");
+  background-repeat: no-repeat;
+}
+.education .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.education .left .degree_name {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.education .left .college_name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.education .left .year {
+  font-size: 1.5rem;
+}
+.education .right {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.education .right img {
+  border-radius: 2rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.certification {
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  width: 35rem;
+  margin-top: 5%;
+}
+.certification .imgBox img {
+  width: 100%;
+}
+.certification h1 {
+  font-size: 1.8rem;
+}
+.certification h3 {
+  background-color: #717070;
+  border-radius: 5px;
+  padding: 0.5rem;
+  transition: all 0.2s;
+}
+.certification h3 a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.project__card {
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.2s;
+  width: 35rem;
+}
+.project__card .img__box img {
+  width: 100%;
+}
+.project__card .project__details {
+  padding: 1rem;
+}
+.project__card .project__details h2 {
+  font-size: 2rem;
+}
+.project__card .project__details .stack {
+  background-color: #ccc;
+  border-radius: 5px;
+  color: #000;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+.project__card .project__details .action .link__box {
+  background-color: #717070;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1rem;
+  transition: all 0.2s;
+  width: 100%;
+}
+.project__card .project__details .action .link__box a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer {
+  background-image: url("../../public/footer.png");
+  background-size: 100%;
+
+  color: #3b3b3b;
+  padding: 6rem 12rem;
+  text-align: center;
+}
+.footer .footer_heading {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.u-margin-top-small {
+  margin-top: 2rem !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+.links {
+  display: inline-block;
+  font-size: 2rem;
+}
+.footer .footer__links a {
+  color: #717070;
+}
+
+/* ------------------------------------ media query----------------------- */
+
+@media (max-width: 768px) {
+  .navbar .subnavbar {
+    display: none;
+  }
+  .navbar .mobile__menu {
+    display: block;
+  }
+  .header {
+    flex-direction: column-reverse;
+    padding: 5rem 0 0;
+  }
+  .header__left {
+    width: 100%;
+    text-align: center;
+    transform: none;
+  }
+  .header__left--box {
+    padding: 5rem;
+  }
+  .header__left--box .header__heading {
+    font-size: 4rem;
+  }
+  .header__left--box .resume {
+    font-size: 1.5rem;
+  }
+  .links {
+    font-size: 2rem;
+  }
+  .header__right {
+    width: 100%;
+  }
+  section {
+    padding: 0 2rem;
+  }
+  .section__container {
+    flex-direction: column;
+  }
+  .about__left {
+    width: 100%;
+  }
+  .about__right {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  .about__right p {
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .skills .left {
+    width: 100%;
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .skills .right {
+    width: 100%;
+  }
+  .skills .right img {
+  }
+  .education {
+    padding: 2rem;
+    text-align: center;
+  }
+  .education .left {
+    width: 100%;
+  }
+  .education .right {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .education .right img {
+    margin-top: 4rem;
+    width: 60%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .certification {
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .project__card {
+    width: 70%;
+  }
+  .footer {
+    padding: 3rem 6rem;
+    background-repeat: no-repeat;
+  }
+  .links {
+    font-size: 2rem;
+  }
+}
